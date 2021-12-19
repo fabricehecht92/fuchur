@@ -7,6 +7,6 @@ usage:
 
 to find the right bookmark just use:
 
-  cat bookmarks.txt | grep <searchterm>
+  cat -n bookmarks.txt | grep <searchterm>
   
 Note: Some website seem to block the request from the script. There is currently no fix.
